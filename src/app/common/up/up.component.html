@@ -1,0 +1,36 @@
+<div>
+  <h1
+    class="text-6xl text-orange-500 italic font-bold font-sans hover:font-serif"
+  >
+    Cric8
+  </h1>
+  <br />
+  <h2 class="text-4xl text-blue-500 font-semibold italic">
+    Live Cricket Scores
+  </h2>
+</div>
+<div>
+  <br /><br />
+  <div class="flex justify-around font-mono">
+    <div
+      class="text-3xl hover:text-green-400 focus:text-red-600"
+      [routerLink]="['/app-second']"
+    >
+      <li>LIVE</li>
+    </div>
+
+    <div
+      class="text-3xl hover:text-green-400 focus:text-red-600"
+      [routerLink]="['/app-upcoming']"
+    >
+      <li>UPCOMING</li>
+    </div>
+
+    <div
+      class="text-3xl hover:text-green-400 focus:text-red-600"
+      [routerLink]="['/app-recent']"
+    >
+      <li>RECENT</li>
+    </div>
+  </div>
+</div>

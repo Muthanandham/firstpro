@@ -1,0 +1,36 @@
+<br /><br />
+<div>
+  <div
+    class="flex justify-around bg-gray-400 max-w-screen-2xl h-60 rounded-3xl mx-64"
+  >
+    <div *ngFor="let val of data">
+      <table class="border-spacing-3">
+        <tr>
+          <td class="flex justify-center">{{ val.T1 }}vs{{ val.T2 }}</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <br /><br />
+  <div
+    class="flex justify-around bg-gray-400 max-w-screen-2xl h-60 rounded-3xl mx-64"
+  >
+    <table *ngFor="let val of data">
+      <tr>
+        <td class="flex justify-center">{{ val.T3 }}{{ val.T4 }}</td>
+      </tr>
+    </table>
+  </div>
+  <br /><br />
+  <div
+    class="flex justify-around bg-gray-400 max-w-screen-2xl h-60 rounded-3xl mx-64"
+  ></div>
+  <br /><br />
+  <div
+    class="flex justify-around bg-gray-400 max-w-screen-2xl h-60 rounded-3xl mx-64"
+  ></div>
+</div>
+
+<br /><br />
+
+<br /><br />
